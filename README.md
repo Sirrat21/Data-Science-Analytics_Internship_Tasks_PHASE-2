@@ -29,6 +29,8 @@ o	F1-score
 6. Model Explainability
 •	Applied SHAP
 •	Identified important features influencing predictions
+
+
 **Results and Findings**
 •	The dataset was highly imbalanced, with most customers not subscribing
 •	Random Forest outperformed Logistic Regression, especially in terms of F1-score
