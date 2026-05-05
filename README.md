@@ -36,6 +36,7 @@ o	F1-score
 •	Random Forest outperformed Logistic Regression, especially in terms of F1-score
 •	Logistic Regression struggled to capture complex relationships
 •	SHAP analysis revealed key influencing features such as:
+
 o	Duration of contact
 o	Previous campaign outcomes
 o	Number of contacts
