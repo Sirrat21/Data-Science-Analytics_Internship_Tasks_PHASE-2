@@ -46,7 +46,9 @@ o	Number of contacts
 
 
 **Task 2: Customer Segmentation Using Unsupervised Learning**
+
 **Objective**
+
 The objective of this project is to segment customers based on their spending behavior using K-Means Clustering.
 
 **Dataset**
