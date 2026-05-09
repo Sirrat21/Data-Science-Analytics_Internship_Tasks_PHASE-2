@@ -41,3 +41,50 @@ o	Duration of contact
 o	Previous campaign outcomes
 o	Number of contacts
 **
+
+
+
+
+**Task 2: Customer Segmentation Using Unsupervised Learning**
+**Objective**
+The objective of this project is to segment customers based on their spending behavior using K-Means Clustering.
+
+**Dataset**
+Mall Customers Dataset containing:
+•	Gender 
+•	Age 
+•	Annual Income 
+•	Spending Score 
+
+**Tools & Technologies**
+•	Python 
+•	Google Colab 
+•	Pandas 
+•	NumPy 
+•	Matplotlib 
+•	Seaborn 
+•	Scikit-learn 
+
+**Project Steps**
+1.	Loaded and explored the dataset 
+2.	Performed Exploratory Data Analysis (EDA) 
+3.	Selected important features 
+4.	Applied feature scaling 
+5.	Used Elbow Method to find optimal clusters 
+6.	Applied K-Means Clustering 
+7.	Visualized clusters using PCA
+    
+**Results**
+•	Optimal number of clusters found: 5 
+•	Customers were divided into different groups based on income and spending habits. 
+•	PCA helped visualize the clusters clearly. 
+
+**Marketing Strategies**
+•	High spenders → Premium offers & VIP services 
+•	Low spenders → Discounts & budget promotions 
+•	Average customers → Reward points & regular promotions 
+
+**Conclusion**
+K-Means Clustering successfully segmented customers into meaningful groups. These insights can help businesses improve customer targeting and marketing strategies.
+
+
