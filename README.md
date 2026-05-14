@@ -88,6 +88,46 @@ Mall Customers Dataset containing:
 •	Low spenders → Discounts & budget promotions 
 •	Average customers → Reward points & regular promotions 
 
+
+
+# Energy Consumption Time Series Forecasting
+
+## Objective
+
+The goal of this project is to forecast short-term household energy consumption using historical time-series data and compare different forecasting models.
+
+## Dataset
+
+Household Power Consumption Dataset containing time-based electricity usage measurements.
+
+## Approach
+
+* Parsed and cleaned datetime data
+* Resampled data to hourly frequency
+* Created time-based features (hour, day, month, weekday, weekend)
+* Split data into training and testing sets
+* Applied three models:
+
+  * ARIMA (statistical model)
+  * Prophet (time series forecasting model)
+  * XGBoost (machine learning model)
+
+## Results
+
+* ARIMA captured basic trends but had limited performance
+* Prophet handled seasonality better than ARIMA
+* XGBoost achieved the best performance due to feature engineering
+
+## Evaluation Metrics
+
+* Mean Absolute Error (MAE)
+* Root Mean Squared Error (RMSE)
+
+## Conclusion
+
+XGBoost outperformed other models for short-term forecasting, showing that machine learning models with proper features can be more effective than traditional time series methods.
+
+
 **Conclusion**
 K-Means Clustering successfully segmented customers into meaningful groups. These insights can help businesses improve customer targeting and marketing strategies.
 
